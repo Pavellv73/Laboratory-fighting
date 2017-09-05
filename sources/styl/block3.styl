@@ -1,0 +1,144 @@
+.block3
+  width 100%
+  height auto
+  position relative
+
+  &:after
+    content ""
+    width 100%
+    height 100%
+    background-image url("img/block3-bg.png")
+    background-size 495px 647px
+    background-position -292px 101%
+    background-repeat no-repeat
+    position absolute
+    top 0
+    left 0
+    z-index -1
+    opacity 0.5
+    background-color #fdfbfa
+    @media (min-width 768px)
+      opacity 1
+      background-position -175px 101%
+      background-size 471px 594px
+    @media (min-width 1280px)
+      background-position 50px 101%
+
+
+
+
+
+  .block3-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    padding-bottom 40px
+    box-sizing border-box
+    z-index 2
+    @media (min-width 768px)
+      padding-top 61px
+      padding-bottom 10px
+    @media (min-width 1280px)
+      padding-top 65px
+      padding-bottom 60px
+
+
+    .block3-head
+      width 100%
+      height auto
+      margin-bottom 42px
+      @media (min-width 768px)
+        margin-bottom 60px
+      @media (min-width 1280px)
+        margin-bottom 64px
+        padding-left 200px
+        box-sizing border-box
+
+      h2
+        text-align right
+        color #0c0b10
+        @media (min-width 768px)
+          text-align center
+
+
+    .conditions-blocks
+      width 100%
+      height auto
+      padding-left 68px
+      box-sizing border-box
+      @media (min-width 768px)
+        padding-left 280px
+      @media (min-width 1280px)
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items flex-end
+        flex-direction column
+
+
+      .condition-block
+        width 100%
+        height auto
+        margin-bottom 40px
+        @media (min-width 768px)
+          margin-bottom 60px
+        @media (min-width 1280px)
+          width 60%
+          margin-bottom 64px
+
+
+        h3
+          color #b03725
+          font-family "BlissPro-Medium"
+          font-size 20px
+          font-weight 700
+          margin-bottom 10px
+          @media (min-width 768px)
+            font-size 22px
+            margin-bottom 20px
+          @media (min-width 1280px)
+            margin-bottom 16px
+
+        p
+          color #0c0b10
+          font-family "BlissPro-Bold"
+          font-size 16px
+          font-weight 500
+          margin-bottom 10px
+          margin-left 12px
+          position relative
+          text-align left
+          @media (min-width 768px)
+            font-size 18px
+            margin-bottom 20px
+          @media (min-width 1280px)
+            max-width 484px
+            margin-bottom 16px
+
+          &:before
+            content ""
+            width 12px
+            height 10px
+            background-image url("img/check-icon.png")
+            background-size 100%
+            background-repeat no-repeat
+            background-position center
+            position absolute
+            top 7px
+            left -15px
+
+      span
+        color #b03725
+        font-family "BlissPro-BoldItalic"
+        font-size 14px
+        font-weight 700
+        text-align left
+        line-height 15px
+        @media (min-width 768px)
+          font-size 16px
+        @media (min-width 1280px)
+          margin-top 0
+          width 60%

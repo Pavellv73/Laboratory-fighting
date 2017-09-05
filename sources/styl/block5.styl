@@ -1,0 +1,136 @@
+.block5
+  width 100%
+  height auto
+  background-color #0c0b10
+  background-image url("img/block5-bg.png")
+  background-size 466%
+  background-position 39% 50%
+  background-repeat no-repeat
+  position relative
+  @media (min-width 768px)
+    background-size 217%
+  @media (min-width 1280px)
+    background-size 92%
+    background-position 99% 50%
+
+
+  .bg-block5
+    width 100%
+    height 100%
+    background-image  url("img/grain-texture.png")
+    background-size auto
+    background-position center center
+    background-repeat repeat
+    position absolute
+    top 0
+    left 0
+
+  .block5-content
+    width 100%
+    height auto
+    padding-top 35px
+    padding-bottom 40px
+    @media (min-width 768px)
+      padding-top 70px
+      padding-bottom 62px
+    @media (min-width 1280px)
+      justify-content center
+      align-items center
+      flex-direction row
+
+    .block5-head
+      width 100%
+      height auto
+      margin-bottom 60px
+      @media (min-width 768px)
+        margin-bottom 80px
+      @media (min-width 1280px)
+        margin-bottom 0
+        width 47%
+
+      h2
+        font-size 26px
+        text-align center
+        margin-bottom 10px
+
+        @media (min-width 768px)
+          font-size 38px
+          margin-bottom 20px
+          line-height 45px
+        @media (min-width 1280px)
+          text-align left
+
+      p
+        color #FFFFFF
+        font-size 18px
+        font-family "BlissPro-LightItalic"
+        text-align center
+        @media (min-width 768px)
+          font-size 22px
+          line-height 25px
+        @media (min-width 1280px)
+          text-align left
+
+    form
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      z-index 2
+      @media (min-width 1280px)
+        width 42%
+        align-items flex-end
+
+      input
+        width 100%
+        max-width 300px
+        height 50px
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        text-align center
+        background transparent
+        border-bottom 2px solid #ffffff
+        border-top none
+        border-left none
+        border-right none
+        color #ffffff
+        font-family "BlissPro-Medium"
+        font-size 16px
+        font-weight 500
+        margin-bottom 30px
+
+
+      button
+        margin-bottom 22px
+
+      .check
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content flex-start
+        align-items flex-start
+        flex-direction row
+        margin 0 autos
+        @media (min-width 1280px)
+          width 52%
+
+        input[type=checkbox]
+          width 16px
+          height 16px
+          border-radius 2px
+          border 2px solid #0c0b10
+          background transparent
+          margin 5px 16px 0 0
+
+        p
+          text-align left
+          color #FFFFFF
+          font-family "BlissPro-LightItalic"
+          font-size 16px
+          font-weight 500

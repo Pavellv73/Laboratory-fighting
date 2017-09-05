@@ -1,0 +1,133 @@
+.block13
+  width 100%
+  height auto
+
+  .block13-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    box-sizing border-box
+
+    .maps
+      width 100%
+      height auto
+      box-sizing border-box
+      padding 0 12px
+      @media(min-width: t-screen)
+        padding 0 29px
+      @media(min-width: d-screen)
+        padding 0
+
+      iframe
+        width 100%
+        height 400px
+        pointer-events none
+
+    .head-top
+      width 100%
+      height auto
+      background-color #FFFFFF
+      padding-top 8px
+      padding-bottom 10px
+      box-sizing border-box
+      @media (min-width 768px)
+        display flex
+        display -webkit-flex
+        justify-content space-between
+        align-items center
+        flex-direction row
+        padding-top 10px
+        padding-bottom 10px
+
+
+
+      .head-text
+        width 100%
+        height auto
+        box-sizing border-box
+        padding 0 12px
+        @media(min-width: t-screen)
+          padding 0 29px
+          width auto
+        @media(min-width: d-screen)
+          padding 0
+
+
+        p
+          color #0c0b10
+          text-align center
+          font-family "BlissPro-LightItalic"
+          font-size 14px
+          font-weight 700
+          @media (min-width 768px)
+            font-size 16px
+
+
+      .top-contact
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content space-between
+        align-items center
+        flex-direction row
+        @media (min-width 768px)
+          width 50%
+          justify-content flex-end
+          align-items center
+        @media (min-width 1280px)
+          width auto
+
+        .top-time
+          width auto
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction row
+          @media (min-width 768px)
+            margin-right 25px
+
+          img
+            width auto
+            height 14px
+            margin-right 8px
+            @media (min-width 768px)
+              width auto
+              height 15px
+          p
+            color #0c0b10
+            font-family "BlissPro-Light"
+            @media (min-width 768px)
+              font-size 16px
+              text-align right
+
+        .top-mail
+          width auto
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction row
+
+          img
+            width auto
+            height 14px
+            margin-right 8px
+            @media (min-width 768px)
+              width auto
+              height 15px
+
+          a
+            color #0c0b10
+            font-family "BlissPro-Medium"
+            cursor pointer
+            @media (min-width 768px)
+              font-size 16px
+              text-align right
+

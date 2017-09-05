@@ -1,0 +1,176 @@
+.block7
+  width 100%
+  height auto
+  background-color #ffffff
+
+  .block7-content
+    width 100%
+    height auto
+    padding-top 40px
+    padding-bottom 40px
+    box-sizing border-box
+    @media (min-width 1280px)
+      max-width 984px
+
+    .block7-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      h2
+        text-align right
+        color #0c0b10
+        @media (min-width 768px)
+          margin-bottom 60px
+          br
+            display none
+
+    .tabs-block
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      margin-bottom 20px
+      @media (min-width 768px)
+        flex-flow row wrap
+        margin-bottom 30px
+
+      button
+        width 100%
+        margin-bottom 5px
+        cursor pointer
+        @media (min-width 768px)
+          min-width 230px
+          width auto
+          margin-bottom 15px
+          margin-left 2px
+          margin-right 2px
+          padding-right 22px
+          padding-left 22px
+
+    .tabs-info
+      width 100%
+      height auto
+
+      .tab-info
+        width 100%
+        height auto
+        display none
+
+        .tab-info-img
+          width 100%
+          height 138px
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items flex-start
+          overflow hidden
+          margin-bottom 5px
+          @media (min-width 768px)
+            margin-bottom 10px
+            height 332px
+          @media (min-width 1280px)
+            height 590px
+            margin-bottom 16px
+
+          img
+            width 100%
+            height auto
+
+        .tab-text
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+
+          p
+            width 100%
+            text-align left
+            font-family 'BlissPro-Medium'
+            @media (min-width 768px)
+              font-size 18px
+
+          div.a-block
+            width 100%
+            height auto
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction row
+
+            .a-red
+              width 284px
+              height 64px
+              box-shadow inset 0 -4px 0 rgba(0, 0, 0, 0.5)
+              border-radius 2px
+              background-color #b03725
+              background-image linear-gradient(180deg, #ff5238 0%, #b03725 100%)
+              transition all 0.2s ease
+              text-shadow 0 1px 1px rgba(0, 0, 0, 0.2)
+              color #ffffff
+              font-family "BlissPro-Bold"
+              font-size 18px
+              font-weight 800
+              text-transform uppercase
+              margin-top 20px
+              margin-bottom 20px
+              padding 22px 50px
+              box-sizing border-box
+              text-align center
+              @media (min-width 768px)
+                margin-right 10px
+              &:hover
+                box-shadow inset 0 -6px 0 rgba(0, 0, 0, 0.5)
+                border-radius 2px
+                background-color #b03725
+                background-image linear-gradient(180deg, #ff5238 0%, #d9452f 100%)
+              &:active
+                box-shadow inset 0 -2px 0 rgba(0, 0, 0, 0.5)
+                border-radius 2px
+                background-color #812b22
+
+            .a-gray
+              width 284px
+              height 64px
+              box-shadow inset 0 -4px 0 rgba(0, 0, 0, 0.3)
+              border-radius 2px
+              background-color #878689
+              transition all 0.2s ease
+              padding 22px 20px
+              box-sizing border-box
+              color #ffffff
+              font-family "BlissPro-Bold"
+              font-size 18px
+              font-weight 800
+              text-transform uppercase
+              text-align center
+              @media (min-width 768px)
+                margin-left 10px
+              &:hover
+                box-shadow inset 0 -6px 0 rgba(0, 0, 0, 0.5)
+                border-radius 2px
+              &:active
+                box-shadow inset 0 -2px 0 rgba(0, 0, 0, 0.5)
+                border-radius 2px
+                background-color #812b22
+                padding-top 6px
+
+
+
+    .tab-info-active
+      display block!important
+
+

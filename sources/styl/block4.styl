@@ -1,0 +1,112 @@
+section.block4
+  width 100%
+  height auto
+  background-color #ffffff
+
+  .block4-content
+    width 100%
+    height auto
+    padding-top 21px
+    padding-bottom 47px
+    box-sizing border-box
+    @media (min-width 768px)
+      padding-top 30px
+      padding-bottom 60px
+    @media (min-width 1280px)
+      padding-top 40px
+      padding-bottom 64px
+
+    .block4-slider
+      width 100%
+      height auto
+
+
+
+      .slick-slider
+        width 100%
+        height 650px
+        @media (min-width 768px)
+          height 785px
+        @media (min-width 1280px)
+          height 590px
+
+        .slick-prev, .slick-next
+          display none!important
+
+        .slick-slide
+          width 100%
+          height 602px
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          @media (min-width 768px)
+            flex-flow row wrap
+            justify-content space-between
+            height 730px
+          @media (min-width 1280px)
+            height 524px
+
+
+          img
+            width 100%
+            height auto
+            margin-bottom 10px
+            @media (min-width 768px)
+              width 350px
+              height auto
+            @media (min-width 1280px)
+              width 384px
+              height auto
+              margin-bottom 24px
+
+            &:nth-of-type(4)
+              display none
+              @media (min-width 768px)
+                display block
+            &:nth-of-type(5)
+              display none
+              @media (min-width 768px)
+                display block
+            &:nth-of-type(6)
+              display none
+              @media (min-width 768px)
+                display block
+
+      .dots
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction row
+        margin-top 20px
+
+
+        button
+          display none
+
+        li
+          width 22px
+          height 22px
+          box-shadow inset 0 -4px 0 rgba(0, 0, 0, 0.3)
+          border-radius 2px
+          background-color #878689
+          margin-left 15px
+          margin-right 15px
+          transition all 0.2s ease
+          &:hover
+            box-shadow inset 0 -6px 0 rgba(0, 0, 0, 0.3)
+            border-radius 2px
+            background-color #878689
+          &:active
+            box-shadow inset 0 -6px 0 rgba(0, 0, 0, 0.3)
+            border-radius 2px
+            background-color #dc4630
+
+        li.slick-active
+          box-shadow inset 0 -6px 0 rgba(0, 0, 0, 0.3)
+          border-radius 2px
+          background-color #dc4630

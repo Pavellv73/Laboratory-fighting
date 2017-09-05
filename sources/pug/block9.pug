@@ -1,0 +1,16 @@
+section.block9.cnt
+    div.bg-block9
+    div.block9-content.row
+        div.block9-head
+            h2 Получи программу тренировок от чемпиона мира на неделю
+            p бесплатно
+
+        form(method="post" action="mailer.php")
+            input(type="text" name="name" placeholder="Ваше имя" required)
+            input.phone(type="text" name="phone" placeholder="Ваш телефон" required)
+            input(type="text" name="email" placeholder="Ваш email" required)
+            button.button-red(type="submit") Записаться
+            div.check
+                input(type="checkbox" required)
+                a.fancybox(href="#politic")
+                    p Я даю согласие на обработку <br>персональных данных
